@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Set a page title -->
+  <title>Weather</title>
+
+  <!-- Site Styles -->
+  <link rel="stylesheet" href="/css/tachyons.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+</head>
+
+<body>
+  <div class="sans-serif">
+
+    <!-- If there is an error, this box is shown. 'dn' is the only required class -->
+    <div id="error" class="dn bg-red white pa4 fixed bottom-0 w-100">
+      Sorry, we couldn't find that city.
+    </div>
+
+    <!-- Search Box -->
+    <form id="location-search" class="pa4 flex justify-center">
+      <div class="">
+        <h1 class="flex flex-wrap items-baseline">
+          <span class="Futura mr3 mb2 pl6 pr6 ma0">
+            What's the weather in:
+          </span>
+        <div class="pb3">
+          <input type="text" id="area" value="Boston" class="flex-auto blue br3 ph2">
+          </div>
+        </h1>
+    </form>
+
+
+    <!-- Content -->
+    <div class="display">
+
+      <h1 class=" flex justify-center">
+  <span id="temp" class="anton f-subheadline f-headline-ns  "></span>°F
+</h2>
+
+    </div>
+    <div class="illustrated pa6 pv0">
+
+      <div class="bright pa4">
+        <img src="/1x/sun.png" alt="" class="body_sun">
+      </div>
+
+      <div class="sky pa4">
+        <img src="/1x/light_cloud.svg" alt="">
+      </div>
+
+      <div class="sky2 pa4">
+        <img src="/1x/dark_cloud.svg" alt="">
+      </div>
+
+      <div class="wind pa4">
+        <img src="/1x/windy_01.svg" alt="">
+      </div>
+
+      <div class="still pa4">
+        <img src="/1x/calm_plant.svg" alt="">
+      </div>
+
+  </div>
+
+        <div class="land pa0">
+          <img src="/1x/land.svg" alt="">
+        </div>
+<!-- <div class="raind">
+  <div class="small_drop">
+    <img src="/1x/drop_1.svg" alt="">
+  </div>
+
+  <div class="large_drop pa4p">
+    <img src="/1x/drop2.svg" alt="">
+  </div>
+
+  <div class="medium_drop pa4">
+    <img src="/1x/drop3.svg" alt="">
+  </div>
+</div> -->
+
+
+    <div class="flex flex-wrap pa4">
+      <div class="w-100 w-50-m w-third-l">
+        <p>City: <span id="location-name"></span></p>
+        <p>Country: <span id="country"></span></p>
+      </div>
+
+      <div class="w-100 w-50-m w-third-l">
+        <p>Current Temp: <span id="temp"></span></p>
+        <p>Max Temp: <span id="temp-max"></span></p>
+        <p>Min Temp: <span id="temp-min"></span></p>
+      </div>
+
+      <div class="w-100 w-50-m w-third-l">
+        <p>Condition: <span id="condition"></span></p>
+        <p>Desription: <span id="condition-description"></span></p>
+        <p>Wind Speed: <span id="wind-speed"></span>mph</p>
+      </div>
+    </div>
+
+    </div>
+
+    <!-- Site JavaScript -->
+    <script src="/javascript/toggleClass.js" charset="utf-8"></script>
+    <script src="/javascript/main.js" charset="utf-8"></script>
+    <script src="/javascript/weather.js" charset="utf-8"></script>
+</body>
+
+</html>

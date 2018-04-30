@@ -1,0 +1,50 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+html {
+  color: black;
+ background: linear-gradient(#E2F9DD, #ffffff);
+background-repeat: no-repeat;
+}
+.illustrated {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+}
+/* .land {
+  grid-column: 1/-1;
+  grid-row: 3;
+  align-items: end;
+} */
+
+img {
+  max-width: 100%;
+}
+
+.sky {
+  animation: 3s infinite alternate slideIn;
+}
+@keyframes slidein {
+  from {
+    left: -100;
+  }
+
+  to {
+    left: 0;
+  }
+}
+.bright {
+  /* grid-column: 1/2;
+  grid-row: 1; */
+  background: url(/1x/sun.png)
+  background-size: auto;
+  -webkit-animation: rotation 2s linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}

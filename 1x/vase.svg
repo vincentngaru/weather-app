@@ -1,0 +1,29 @@
+<svg id="33f672fb-f05a-439a-a89e-f4a64296824b" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="1.48in" height="0.76in" viewBox="0 0 106.59 55.06">
+  <defs>
+    <style>
+      .\34 691815e-d25a-41aa-8642-13ccd2c4c9e2 {
+        fill: #deeed3;
+      }
+
+      .\34 691815e-d25a-41aa-8642-13ccd2c4c9e2, .adbe3ab1-ae03-4763-955d-f1dc6a9e449a {
+        stroke: #4b262b;
+        stroke-miterlimit: 10;
+        stroke-width: 0.92px;
+      }
+
+      .\35 1d9f777-ca85-4a76-936d-6fab18756e58 {
+        fill: #d4eef4;
+      }
+
+      .adbe3ab1-ae03-4763-955d-f1dc6a9e449a {
+        fill: #af8c92;
+      }
+    </style>
+  </defs>
+  <title>vase</title>
+  <g>
+    <path class="4691815e-d25a-41aa-8642-13ccd2c4c9e2" d="M.54,9.45,17.43,48.51c0,3.36,16.06,6.1,35.86,6.1s35.86-2.74,35.86-6.1l17-39.06"/>
+    <ellipse class="51d9f777-ca85-4a76-936d-6fab18756e58" cx="53.29" cy="9.45" rx="52.84" ry="8.99"/>
+    <ellipse class="adbe3ab1-ae03-4763-955d-f1dc6a9e449a" cx="53.29" cy="9.45" rx="52.84" ry="8.99"/>
+  </g>
+</svg>
