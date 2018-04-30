@@ -3,12 +3,16 @@
  * ======================================== */
 html {
   color: black;
- background: linear-gradient(#E2F9DD, #ffffff);
+  background: url(/1x/bground-01.svg);
 background-repeat: no-repeat;
 }
 .illustrated {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+}
+.clouds .sky{
+   background color: linear-gradient(#E2F9DD, #ffffff);
+   background-repeat: no-repeat
 }
 /* .land {
   grid-column: 1/-1;
